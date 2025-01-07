@@ -1,4 +1,4 @@
-import './shop.css'
+import './Shop.css'
 import SearchControl from '../../components/SearchControl/SearchControl';
 import { useOutletContext } from 'react-router-dom';
 function Shop(){

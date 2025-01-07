@@ -7,16 +7,16 @@ import { useState, useEffect } from 'react';
 import Loading from '../Loading/Loading.jsx';
 import { useOutletContext } from 'react-router-dom';
 const BannerUrl = [
-  '/images/banner.jpg',
-  '/images/banner1.jpg',
-  '/images/banner2.jpg',
-  '/images/banner3.jpg'
+  './images/banner.jpg',
+  './images/banner1.jpg',
+  './images/banner2.jpg',
+  './images/banner3.jpg'
 ]
 
 const subBannerUrl = [
-  '/images/subBanner1.jpg',
-  '/images/subBanner2.jpg',
-  '/images/subBanner3.jpg',
+  './images/subBanner1.jpg',
+  './images/subBanner2.jpg',
+  './images/subBanner3.jpg',
 ]
 
 function Home(){
@@ -45,7 +45,7 @@ function Home(){
       <CardGrid products = {productsInfor} getTopProducts={true}/>
       <CardGrid images={subBannerUrl}/>
       <div className="footer">
-        <img src="/images/Community.png" alt="" className="communityImg" />
+        <img src="./images/Community.png" alt="" className="communityImg" />
         <div className="footerContent">
           <h2>Thank you for your purchase</h2>
           <p>My name is Thai Van Truong, And if you want to buy my product, please click the button below</p>
