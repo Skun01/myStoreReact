@@ -1,0 +1,18 @@
+.cardGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+.subImageBanner{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stackCardGrid{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

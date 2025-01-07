@@ -1,0 +1,15 @@
+@import url('./index.css');
+
+.appContainer{
+  display: flex;
+  position: relative;
+  
+}
+
+.sidebarContainer{
+  flex: 2.5
+}
+
+.mainContent{
+  flex: 7.5;
+}

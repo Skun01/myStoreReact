@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins&family=Potta+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&display=swap');
+
+.sideBar{
+  width: 20%;
+  background-color: black;
+  color: white;
+  margin: 15px;
+  border-radius: 20px;
+  padding: 15px 10px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.shopHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.shopName{
+  font-size: x-large;
+  font-family: "Rubik Vinyl", serif;
+}
+.shopLogo{
+  width: 80px;
+}
+
+.funcNav{
+  margin-left: 50px;
+  list-style: none;
+}
+
+.funcNav .funcLink {
+}
+
+.funcNav .funcLink a{
+  color: white;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.funcNav .funcLink a:hover{
+  color: #694F5D;
+}
+
+.active{
+  transform: translateX(10px);
+}
+
+.active a{
+  color: #694F5D !important;
+}
+
+.supportNav{
+  list-style: none;
+  margin-left: 50px;
+}
+
+.supportNav .supportLink{
+  color: #ccc;
+  margin: 20px 0;
+}
+
+.cartNumber{
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #00ffff;
+  color: black;
+}
