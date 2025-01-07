@@ -1,4 +1,4 @@
-import './sidebar.css'
+import './Sidebar.css'
 import {House, LogIn, Store, ShoppingCart } from 'lucide-react'
 import { Link } from 'react-router-dom';
 function Sidebar({currentPage, cartNumber}){
@@ -28,7 +28,7 @@ function Sidebar({currentPage, cartNumber}){
         </li>
 
         <li className="supportLink">
-          Contact
+          Contact Us
         </li>
       </ul>
 
